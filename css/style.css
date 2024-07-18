@@ -52,3 +52,93 @@ ul li button{
 ul li button:hover{
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.3),0 1px 3px 1px rgba(0,0,0,.15);
 }
+
+.div-logo{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.input-pesquisa{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom_input {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  width: 100vw;
+  border: 2px solid red;
+}
+
+.custom_input div{
+  position: relative;
+  border: 2px solid black;
+}
+
+.input {
+	font-size: 18px;
+	padding: 10px 120px 10px 45px;
+	width: 650px;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #cfcfcf;
+	border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+	color: #adadad;
+}
+
+.svg_icon {
+	position: absolute;
+  top: 14px;
+  left: 15px; 
+	fill: #A3A3A3  ;
+	height: 18px;
+}
+
+.icon-teclado{
+  position: absolute;
+  right: 90px;
+  top: 14px;
+  height: 14px;
+}
+
+.icon-mic{
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.icon-camera{
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  height: 26px;
+}
+
+@media screen and (max-width: 705px) {
+  .input{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 535px){
+  .input{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 435px){
+  .input{
+    width: 350px;
+  }
+}
+
