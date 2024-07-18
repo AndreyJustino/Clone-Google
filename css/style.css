@@ -1,0 +1,54 @@
+html{
+  font-size: 10px;
+}
+
+header{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  justify-content: end;
+  align-items: center;
+  margin: 15px 20px 0px 0px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #666666;
+  padding: 5px;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+#menu img{
+  padding: 10px;
+}
+
+#menu img:hover{
+  background-color: #e7e7e7;
+  border-radius: 100%;
+  transition: .8s;
+  
+}
+
+ul li button{
+  background-color: #0b57d0;
+  color: #ffffff;
+  border-radius: 100px;
+  padding: 10px 12px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+ul li button:hover{
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.3),0 1px 3px 1px rgba(0,0,0,.15);
+}
